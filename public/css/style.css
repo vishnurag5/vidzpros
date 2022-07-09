@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  /* 62.5% of 16px base font size is 10px */
+  font-size: 62.5%;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.temp-border {
+  border-left: 1px solid #0000004d;
+}
+
+.home-cmp {
+  text-decoration: none;
+  color: #000000;
+  border-left: 1px solid #2b60d6;
+}
+
+.homestmnt-align {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.set-refine {
+  margin-right: 10px;
+}
+
+.settings-refine {
+  margin-right: 10px !important;
+}
+
+@media (max-width: 480px) {
+  .home-cmp {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #000000;
+  }
+  .homestmnt-align {
+    margin-right: 5px;
+    margin-left: 3px;
+  }
+  .set-refine {
+    margin-right: 3px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
